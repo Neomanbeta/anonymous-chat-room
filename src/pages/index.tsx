@@ -40,7 +40,7 @@ class HomeComponent extends React.Component<WithTranslation> {
                         </div>
                     ) : (
                         <div className='text-xl md:text-5xl mb-2 block'>
-                            NeoMan 语音服务器
+                            NeoMan的语音服务器
                         </div>
                     )
                 }
