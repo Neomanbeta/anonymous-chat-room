@@ -31,16 +31,16 @@ class HomeComponent extends React.Component<WithTranslation> {
                     (
                         <div>
                             <div className='text-xl md:text-5xl mb-2 hidden sm:block'>
-                                N<Typist startDelay={1000}  typingDelay={110} loop={true}  cursor={<span className='cursor'>{this.state.cursor}</span>}   >eoMan's Voice Server <Typist.Delay ms={1500} /><Typist.Backspace count={20} /></Typist>
+                                A<Typist startDelay={1000}  typingDelay={110} loop={true}  cursor={<span className='cursor'>{this.state.cursor}</span>}   >nonymous Chat Room <Typist.Delay ms={1500} /><Typist.Backspace count={18} /></Typist>
 
                             </div>
                             <div className='text-xl md:text-5xl mb-2 block sm:hidden'>
-                                NeoMan's Voice Server
+                                Anonymous Chat Room
                             </div>
                         </div>
                     ) : (
                         <div className='text-xl md:text-5xl mb-2 block'>
-                            NeoMan的语音服务器
+                            欢迎来到匿名聊天室
                         </div>
                     )
                 }
