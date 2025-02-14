@@ -35,12 +35,12 @@ class HomeComponent extends React.Component<WithTranslation> {
 
                             </div>
                             <div className='text-xl md:text-5xl mb-2 block sm:hidden'>
-                                Anonymous Chat Room
+                                NeoMan's Voice Server
                             </div>
                         </div>
                     ) : (
                         <div className='text-xl md:text-5xl mb-2 block'>
-                            欢迎来到匿名聊天室
+                            NeoMan 语音服务器
                         </div>
                     )
                 }
@@ -61,17 +61,6 @@ class HomeComponent extends React.Component<WithTranslation> {
                 </Link>
                 </div>
             </div>
-            <footer className=' text-white gap-2 fixed bottom-0 text-xs sm:text-xl h-12 w-full py-1 px-2 flex items-center justify-center text-center bg-primary'>
-                Hosted on 
-                <a className=' text-accent-focus ' href="https://livekit.io/cloud?ref=meet" rel="noopener">
-                LiveKit Cloud
-                </a>
-                . Source code on 
-                <a className=' text-accent-focus ' href="https://github.com/velor2012/anonymous-chat-room" rel="noopener">
-                GitHub
-                </a>
-                .
-            </footer>
             {/* <div>
                 <HistoryCard/>
             </div> */}
